@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Translator</title>
+  </head>
+
+
+  <body>
+  <div class="navbar">
+       <div class="logo">
+        <div class="logoimg">
+        <img id="1"  src ="./images/speech.svg">
+        <img id="2" src="./images/arrow.svg">
+        <img id="3" src="./images/speech.svg">
+      </div>
+      <div class="logotext">
+        <h3>Hello - Bonjour</h3>
+       </div>
+
+</div>
+
+<div class="more">
+</div>
+
+  </div>
+
+  
+
+
+
+
+
+    <div class="container">
+<div class="illustratemages">
+  <img src="">
+  <img src="">
+  <img src="">
+
+</div>
+
+      <div class="wrapper">
+        <div class="text-input">
+          <textarea class="from-text" placeholder="Enter text"></textarea>
+          <textarea
+            class="to-text"
+            placeholder="Translation"
+            readonly
+            disabled
+          ></textarea>
+        </div>
+
+        <ul class="controls">
+          <li class="row from">
+            <div class="icons">
+              <i id="from" class="fas fa-volume-up"></i>
+              <i id="from" class="fas fa-copy"></i>
+            </div>
+            <select></select>
+          </li>
+          <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+          <select></select>
+          <li class="row to">
+            <div class="icons">
+              <i id="to" class="fas fa-volume-up"></i>
+              <i id="to" class="fas fa-copy"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button>Translate Text</button>
+    </div>
+  </body>
+
+  <script src="./js/countries.js"></script>
+  <script src="./js/main.js"></script>
+</html>
