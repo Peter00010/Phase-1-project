@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-* {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,30 +12,37 @@ body {
   align-items: center;
   min-height: 100vh;
   background: #5372f0;
+  flex-direction: column;
 }
 
-.logo{
+.logo {
   position: absolute;
   top: 10px;
   left: 30px;
 }
-.logoimg{
+
+.logoimg {
   display: flex;
   align-items: center;
 }
 
-.logo img{
- height: 20px;
- margin-right: 9px;
+.logo img {
+  height: 20px;
+  margin-right: 9px;
 }
 
-
+.illustrate img {
+  height: 400px;
+}
 
 .container {
+  position: relative;
   width: 670px;
   background: #fff;
   border-radius: 7px;
   padding: 30px;
+  margin-top: -145px; 
+  z-index: 2; 
 }
 
 .wrapper {
@@ -128,5 +134,32 @@ li,
   background: #5372f0;
   border-radius: 5px;
   font-size: 17px;
+  color: #fff;
+}
+
+.newsletter {
+  margin-top: 20px;
+}
+
+.newsletter p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.newsletter input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #5372f0;
+  border-radius: 5px;
+  font-size: 16px;
   color: #fff;
 }
