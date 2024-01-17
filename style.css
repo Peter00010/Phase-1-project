@@ -147,7 +147,7 @@ li,
 }
 
 .newsletter input {
-  padding: 10px;
+  padding: 5px;
   margin-right: 10px;
   border: 1px solid #bbb;
   border-radius: 5px;
@@ -158,7 +158,7 @@ li,
   border: none;
   outline: none;
   cursor: pointer;
-  background: #5372f0;
+  background: black;
   border-radius: 5px;
   font-size: 16px;
   color: #fff;
