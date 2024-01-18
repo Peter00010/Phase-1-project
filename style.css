@@ -44,6 +44,7 @@ body {
 .illustrate img {
   height: 400px;
   padding-left: 150px;
+  
 }
 
 .container {
@@ -199,11 +200,22 @@ li,
 
 /* Additional styling for top links */
 .top-links a {
-  margin-left: 20px;
+  margin-left: 90px;
   color: black;
   transition: 0.4s ease-in-out;
 }
 
 .top-links a:hover {
   color: white;
+}
+
+
+.navbar-nav a{
+  padding-left: 80px;
+}
+
+.logo img{
+  height: 300px;
+  position: absolute;
+  top: -115px;
 }
