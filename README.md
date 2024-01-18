@@ -20,7 +20,7 @@ Exchange Feature: The exchange icon allows users to swap the content of the inpu
 
 HTML
 CSS
-Bootstrap
+Tailwind CSS
 JavaScript
 MyMemory Translation API
 Font Awesome Icons
