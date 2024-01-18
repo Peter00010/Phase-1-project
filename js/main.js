@@ -4,6 +4,8 @@ const selectTag = document.querySelectorAll("select");
 const translateBtn = document.querySelector("button");
 exchangeIcon = document.querySelector(".exchange");
 icons = document.querySelectorAll(".row i");
+emailInput = document.getElementById("email");
+submitEmailBtn = document.getElementById("Submit");
 
 selectTag.forEach((tag, id) => {
   //selecting English by default as FROM language snd Hindi as to Language
@@ -69,6 +71,15 @@ icons.forEach((icon) => {
         utterance.lang = selectTag[1].value; //setting utterance language to toselectTag value
       }
       speechSynthesis.speak(utterance); //speak the passed utterance
+    }
+  });
+  //submitting email address for subscribing to the newsletter
+  submitEmailBtn.addEventListener("click", () => {
+    const email = emailInput.value;
+    if (email) {
+      alert(`Your Email is ${email}. Thank you for subscribing!`);
+    } else {
+      alert("Please enter your email");
     }
   });
 });
