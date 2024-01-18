@@ -1,0 +1,15 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "description": "This Translator project is a simple web application that allows users to translate text from one language to another. The application supports a variety of languages and provides additional features like text-to-speech and copying translated text.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
