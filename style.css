@@ -1,4 +1,4 @@
-
+/* 
  * {
   margin: 0;
   padding: 0;
@@ -175,7 +175,7 @@ li,
 }
 
 /* navbar*/
-.logotext {
+/* .logotext {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -188,5 +188,219 @@ li,
 } 
 
 .logotext a {
-  margin-left: 90px; /* Adjust the margin for spacing between links */
-} 
+  display: flex;
+  align-items: end;
+  margin-left: 90px; 
+
+.top-links{
+
+}  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #5372f0;
+  flex-direction: column;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  transition: .4s ease-in-out;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.logoimg {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 20px;
+  margin-right: 9px;
+}
+
+.illustrate img {
+  height: 400px;
+}
+
+.container {
+  position: relative;
+  width: 670px;
+  background: #fff;
+  border-radius: 7px;
+  padding: 30px;
+  margin-top: -145px;
+  z-index: 2;
+}
+
+.wrapper {
+  border-radius: 5px;
+  border: 1px solid #bbb;
+}
+
+.wrapper .text-input {
+  display: flex;
+  border-bottom: 1px solid #bbb;
+}
+
+.text-input .to-text {
+  border-radius: 0px;
+  border-left: 1px solid #bbb;
+}
+
+.text-input textarea {
+  height: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 18px;
+  border-radius: 5px;
+  background: none;
+  padding: 10px 15px;
+}
+
+.controls,
+li,
+.icons,
+.icons i {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.controls {
+  list-style: none;
+  padding: 12px 15px;
+}
+
+.controls .row.from .icons {
+  border-right: 1px solid #bbb;
+  padding-right: 15px;
+}
+
+.controls .row.to .icons {
+  border-left: 1px solid #bbb;
+  padding-left: 15px;
+}
+
+.controls .icons {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.controls .icons i {
+  color: #9f9f9f;
+  font-size: 14px;
+  cursor: pointer;
+  width: 50px;
+  justify-content: center;
+}
+
+.controls select {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+}
+
+.controls .exchange {
+  color: #9f9f9f;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #5372f0;
+  border-radius: 5px;
+  font-size: 17px;
+  color: #fff;
+}
+
+.newsletter {
+  margin-top: 20px;
+}
+
+.newsletter p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.newsletter input {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: black;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* navbar*/
+.logotext {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 80px; 
+}
+
+.logotext h3 {
+  font-size: 24px;
+}
+
+.logotext a {
+  margin-left: auto; /* Move the links to the right */
+}
+
+.top-links {
+  display: flex;
+  margin-left: 10px;
+}
+
+/* Additional styling for top links */
+.top-links a {
+  margin-left: 20px;
+  color: black;
+  transition: .4s ease-in-out;
+}
+
+.top-links a:hover {
+  color: white;
+}
