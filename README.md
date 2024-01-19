@@ -21,6 +21,7 @@ Exchange Feature: The exchange icon allows users to swap the content of the inpu
 HTML
 CSS
 JavaScript
+Bootstrap
 MyMemory Translation API
 Font Awesome Icons
 Google Fonts (Poppins)
@@ -37,7 +38,6 @@ Use the copy icon to copy the translated text or listen to it using the volume i
 
 MyMemory Translation API
 Font Awesome Icons
-Google Fonts
 
 ### License
 

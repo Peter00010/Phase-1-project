@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
 }
 
 body {
@@ -44,7 +44,7 @@ body {
 .illustrate img {
   height: 400px;
   padding-left: 150px;
-} 
+}
 
 .container {
   position: relative;
@@ -208,12 +208,11 @@ li,
   color: white;
 }
 
-
-.navbar-nav a{
+.navbar-nav a {
   padding-left: 80px;
 }
 
-.logo img{
+.logo img {
   height: 300px;
   position: absolute;
   top: -115px;
